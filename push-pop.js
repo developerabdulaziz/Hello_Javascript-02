@@ -1,4 +1,6 @@
 
+
+//use push to add element to an array as the last element array
 // add elements to an array
 var lastBanch = ['kalam', 'balam', 'salam'];
 lastBanch.push('jalam');
@@ -6,17 +8,21 @@ lastBanch.push('palam');
 lastBanch.push('nalam');
 // console.log(lastBanch);
 
+
+//  use pop to get last element
 //  remove an element from an array
 var friendsAge = [11, 13, 17, 12];
 // friendsAge.push(25);
 // friendsAge.pop();
 // friendsAge.pop();
 
+
 // samne theke delete/add korar jonno shift/unshift use hoi
 // friendsAge.shift();
 friendsAge.unshift(20, 80);
 friendsAge.unshift([50, 20]);
 friendsAge.unshift([2, 5, 7])
+
 
 // var lastItem = friendsAge.pop();
 // console.log(friendsAge);
