@@ -47,6 +47,8 @@ tourDestinations.push('london');
 
 tourDestinations.pop();
 
+
+
 if (tourDestinations[1] == 'nepal') {
     console.log('phara ahare ahare');
 }
@@ -59,6 +61,8 @@ else if (tourDestinations.length == 6) {
 else {
     console.log('kothao jamuna basai thakmu ar mosa marmu')
 }
+
+
 
 var eggPrice = 32;
 var myBudget = 32;
