@@ -23,15 +23,18 @@ var myBudget = 109500;
 // }
 
 
-var chickenPrice = 180;
-var myMoney = 850;
+var chickenPrice = 500;
+var myMoney = 50;
 /*
 // if chicken or price is less than my budget
 // i will eat chicken
 // na hoi: else
 */
 
-if (chickenPrice < myMoney) {
+if (chickenPrice <= myMoney) {
+    console.log('Murgir ran khamu and haddi chibamu!!!');
+}
+if (chickenPrice > myMoney) {
     console.log('yes ! murgir run khamu r haddi chabamu');
 }
 else {
