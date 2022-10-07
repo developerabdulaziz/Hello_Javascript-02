@@ -31,6 +31,7 @@ var myMoney = 50;
 // na hoi: else
 */
 
+/*
 if (chickenPrice <= myMoney) {
     console.log('Murgir ran khamu and haddi chibamu!!!');
 }
@@ -40,3 +41,4 @@ if (chickenPrice > myMoney) {
 else {
     console.log('No ! birani khamu');
 }
+*/

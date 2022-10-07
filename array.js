@@ -7,3 +7,4 @@ var vowels = ['a', 'e', 'i', 'o', 'u'];
 console.log(picnicFee);
 // console.log(nayikas);
 // console.log(friendAge, friendAge.length);
+
