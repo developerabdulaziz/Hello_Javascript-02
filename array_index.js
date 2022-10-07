@@ -21,3 +21,4 @@ var batteryIndex = bookPages.indexOf("battery");
 
 var positionIndex = bookPages.indexOf('bolod');
 // console.log(positionIndex);
+
