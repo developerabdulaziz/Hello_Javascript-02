@@ -75,10 +75,7 @@ var total = vagKora(120, 50);
 console.log(total); */
 
 
-
-//============================================================================
-
-// ---------------------------- Multiple parameter ---------------------------
+// -------------------------------------------------------------- Multiple parameter -------------------------------------------------------
 
 /*  function addTwoNumbers(number1, number2) {
     console.log(number1, number2);
@@ -133,7 +130,7 @@ console.log(total); */
 }
 sum(5, 5, 8, 3, 4); */
 
-// -------------------- Return ------------------------------
+// --------------------------------------------------------------- Return ------------------------------------------------------------
 
 /* function add(number1, number2) {
     console.log(number1, number2);
@@ -155,7 +152,7 @@ console.log('total', total);
 var singaras = bringSingara(200);
 console.log(singaras);
 
- *///===================================== Object proparties =======================================
+ *///========================================================== Object proparties =========================================================
 
 
 var computer = {
@@ -195,3 +192,54 @@ computer.price = 22000;
 computer["price"] = 60000;
 
 // console.log(computer);
+
+
+
+//-------------------------------------  switch ---------------------------------------
+var color = 'white';
+if (color == 'blue') {
+    console.log('color is blue');
+}
+else if (color == 'red') {
+    console.log('color is red');
+}
+else if (color == 'green') {
+    console.log('color is green');
+}
+else if (color == 'white') {
+    console.log('color is white');
+}
+else if (color == 'magenta') {
+    console.log('color is magenta');
+}
+else if (color == 'yellow') {
+    console.log('color is yellow');
+}
+else {
+    console.log('color is black');
+}
+
+// --------------------------
+
+switch (color) {
+    case 'blue':
+        console.log('color is blue');
+        break;
+    case 'red':
+        console.log('color is red');
+        break;
+    case 'green':
+        console.log('color is green');
+        break;
+    case 'white':
+        console.log('color is white');
+        break;
+    case 'magenta':
+        console.log('color is magenta');
+        break;
+    case 'yellow':
+        console.log('color is yellow');
+        break;
+    default:
+        console.log('color is black');
+}
