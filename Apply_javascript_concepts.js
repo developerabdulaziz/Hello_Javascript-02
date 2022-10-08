@@ -1,16 +1,16 @@
 
 
 // ================================================= js concepts recap, var, let, and const =============================================
-/* 
+/*
 Let দিয়ে Variable declare করা মানে অনেক জায়গায় change হবে বা করা হবে।
 Constদিয়ে Variable declare মানে এটা একবারে Fixed পরবর্তীতে আর Declare করা যাবে না।
  */
 
 
 // ----------------- variable -------------------
-var time = '10:15pm';
-var bookPrice = 150;
-var isWhiteColor = false;
+// var time = '10:15pm';
+// var bookPrice = 150;
+// var isWhiteColor = false;
 
 //------------------- array ------------------------
 /*
