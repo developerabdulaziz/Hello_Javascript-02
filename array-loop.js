@@ -2,6 +2,7 @@
     console.log(i);
 } */
 
+
 // Target: Display every elements of an array
 /* var numbers = [45, 87, 56, 32, 51, 25];
 for (var i = 0; i < 7; i++) {
