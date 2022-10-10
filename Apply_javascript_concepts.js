@@ -474,3 +474,12 @@ console.log(myFactorial);
     6. == vs ===
     7. differences between: var, let, const
  */
+
+
+
+/*
+    1. celcius -----> Fahrenheit
+    2. Fahrenheit -------> Celcius
+    3. Simple Interest: principal, interest rate, time --------> interest amount
+    4.
+*/
