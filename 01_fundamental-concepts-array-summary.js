@@ -90,36 +90,36 @@
 আর যদি ০-৯ টা পারো। তাহলে সত্যি কথা হচ্ছে-- তোমার অবস্থা ভালো না। এইটাই বাস্তবতা। এবং এই কন্ডিশন চলতে থাকলে তোমাকে দিয়ে বেশি কিছু আশা করা যাবে না। এই অবস্থা থেকে উতরাতে হলে অনেক অনেক বেশি সময় দিতে হবে। অনেক অনেক অনেক বেশি এফোর্ট দিতে হবে। এইটার পিছনে অনেক বেশি লেগে থাকতে হবে।   */
 
 
-var destinations = ['sajek', 'coxbazar', 'nepal', 'bali', 'sp'];
+// var destinations = ['sajek', 'coxbazar', 'nepal', 'bali', 'sp'];
 
-console.log(destinations[2]);
-destinations[2] = 'thailand';
+// console.log(destinations[2]);
+// destinations[2] = 'thailand';
 
-var index = destinations.indexOf('bali');
+// var index = destinations.indexOf('bali');
 
-destinations.push('bhutan');
-destinations.pop();
+// destinations.push('bhutan');
+// destinations.pop();
 
-destinations.unshift('italy');
-destinations.shift();
+// destinations.unshift('italy');
+// destinations.shift();
 
 // conditionals
 // <, >, ==, !=, <=, >=
 // && ||
 
-if (destinations[1] === 'sajek') {
-    console.log('phara ahare ahare');
-}
-else if (destinations[2] == 'bali') {
-    console.log('chaina tor kache jamuna')
-}
+// if (destinations[1] === 'sajek') {
+//     console.log('phara ahare ahare');
+// }
+// else if (destinations[2] == 'bali') {
+//     console.log('chaina tor kache jamuna')
+// }
 
-else if (destinations.length !== 3) {
-    console.log('aro taka ase aro besi ghurmu');
-}
-else {
-    console.log('kothao jamuna basai thakmu ar mosa marmu')
-}
+// else if (destinations.length !== 3) {
+//     console.log('aro taka ase aro besi ghurmu');
+// }
+// else {
+//     console.log('kothao jamuna basai thakmu ar mosa marmu')
+// }
 
 
 //===============================================================================================
