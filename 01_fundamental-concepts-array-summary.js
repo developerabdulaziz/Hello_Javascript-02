@@ -92,17 +92,29 @@
 
 // var destinations = ['sajek', 'coxbazar', 'nepal', 'bali', 'sp'];
 
+// console.log(destinations[3]);
+
+// destinations[2]='thiland';
 // console.log(destinations[2]);
-// destinations[2] = 'thailand';
 
-// var index = destinations.indexOf('bali');
+// var index = destinations.indexOf('sp');
+// console.log(index);
 
-// destinations.push('bhutan');
+// destinations.push('bangladesh');
+// console.log(destinations);
+
 // destinations.pop();
+// console.log(destinations);
 
 // destinations.unshift('italy');
-// destinations.shift();
+// console.log(destinations);
 
+// destinations.shift();
+// console.log(destinations);
+
+
+
+/* ================================*/
 // conditionals
 // <, >, ==, !=, <=, >=
 // && ||
@@ -190,26 +202,49 @@ var nmbrIndex = number.indexOf(98);
 
 
 
-/*//====================== variable part =======================
-var glass = 'water';
-console.log(glass);
+/*====================== variable part =======================*/
+// var glass = 'water';
+// console.log(glass);
 
-var a = '25';
-var b = 60;
-var result = a + b;
-console.log(result);
+// glass = 'banana';
+// console.log(glass);
+
+/*----------------- string + number---------------*/
+// var a = '25';
+// var b = 60;
+// var result = a + b;
+// console.log(result);
+
+// var x = 'amar sonar bangla';
+// var y = 250;
+// // console.log(x + ' ' + y);
+
+// var result = x + ' ' +y;
+// console.log(result);
 
 
-var x = 'amar sonar bangla';
-var y = 250;
-console.log(x + ' ' + y);
 
-var apple = 98;
-apple = 98 + 2;
-var orange = 50;
-orange -= 2;
-var sum = apple + orange;
-console.log(sum);*////
+/*-------------number + number-----------------*/
+// var c = 25;
+// var d = 25;
+// var result = c + d;
+// console.log(result);
+
+
+// var apple = 100;
+// apple += 5;
+// var banana = 30;
+// banana -= 2;
+// var total = apple + banana;
+// console.log(total);
+
+
+// var apple = 98;
+// apple = 98 + 2;
+// var orange = 50;
+// orange -= 2;
+// var sum = apple + orange;
+// console.log(sum);
 
 
 
@@ -457,13 +492,13 @@ while (i < 15) {
 // ------------------------------------------ variable ---------------------------------------------------------
 
 // number type variable
-var sunglassPrice = 120;
+// var sunglassPrice = 120;
 
 // string type variable
-var specialOneName = 'Ariana Grande';
+// var specialOneName = 'Ariana Grande';
 
 // boolean type variable
-var isSingle = true;
+// var isSingle = true;
 
 // two types of number: Integer:120;
 // float, decimal: 3.65
@@ -492,16 +527,16 @@ var isSingle = true;
 
 //use push to add element to an array as the last element array
 // add elements to an array
-var lastBanch = ['kalam', 'balam', 'salam'];
-lastBanch.push('jalam');
-lastBanch.push('palam');
-lastBanch.push('nalam');
+// var lastBanch = ['kalam', 'balam', 'salam'];
+// lastBanch.push('jalam');
+// lastBanch.push('palam');
+// lastBanch.push('nalam');
 // console.log(lastBanch);
 
 
 //  use pop to get last element
 //  remove an element from an array
-var friendsAge = [11, 13, 17, 12];
+// var friendsAge = [11, 13, 17, 12];
 // friendsAge.push(25);
 // friendsAge.pop();
 // friendsAge.pop();
@@ -509,9 +544,9 @@ var friendsAge = [11, 13, 17, 12];
 
 // samne theke delete/add korar jonno shift/unshift use hoi
 // friendsAge.shift();
-friendsAge.unshift(20, 80);
-friendsAge.unshift([50, 20]);
-friendsAge.unshift([2, 5, 7])
+// friendsAge.unshift(20, 80);
+// friendsAge.unshift([50, 20]);
+// friendsAge.unshift([2, 5, 7])
 
 
 // var lastItem = friendsAge.pop();
@@ -523,18 +558,18 @@ friendsAge.unshift([2, 5, 7])
 // javascript array add element in the begining
 
 
-var number = [10, 14, 16, 50];
-number.push(60);
+// var number = [10, 14, 16, 50];
+// number.push(60);
 // console.log(number);
 
-number.pop();
+// number.pop();
 // console.log(number);
 
 // number.unshift(20, 80);
-number.unshift([50, 20]);
-console.log(number);
+// number.unshift([50, 20]);
+// console.log(number);
 
-number.shift();
+// number.shift();
 // console.log(number);
 
 // ------------------------------------------------- while loop ---------------------------------------------------//
@@ -1013,39 +1048,39 @@ for (var i = 0; i < items.length; i++) {
 
 //------------------------------------------------- array.js --------------------------------------------------
 
-var friendAge = [11, 21, 45, 17, 14, 105, 6];
-var picnicFee = [5000, 2000, 4000, 150];
-var nayikas = ['mahi', 'opu', 'sabnoor', 'sabana'];
-var vowels = ['a', 'e', 'i', 'o', 'u'];
+// var friendAge = [11, 21, 45, 17, 14, 105, 6];
+// var picnicFee = [5000, 2000, 4000, 150];
+// var nayikas = ['mahi', 'opu', 'sabnoor', 'sabana'];
+// var vowels = ['a', 'e', 'i', 'o', 'u'];
 
 // console.log(vowels, vowels.length);
-console.log(picnicFee);
+// console.log(picnicFee);
 // console.log(nayikas);
 // console.log(friendAge, friendAge.length);
 
 
 //------------------------------------------- array_index.js ----------------------------------------------
 
-var bookPages = ['hablu', 'bolod', 'choddogusti', 'battery', 'peracitamol', 'gymancium'];
+// var bookPages = ['hablu', 'bolod', 'choddogusti', 'battery', 'peracitamol', 'gymancium'];
 
 // 1.set element value by index
-bookPages[4] = 'programmer';
+// bookPages[4] = 'programmer';
 // console.log(bookPages);
 
 // 2.get element value by index (array er element koto position a ase)
-var fifthIndex = bookPages[5];
+// var fifthIndex = bookPages[5];
 // console.log(fifthIndex);
 // console.log(bookPages[3]);
-var thirdIndex = bookPages[4];
+// var thirdIndex = bookPages[4];
 // console.log(thirdIndex);
 
 
 
 // 3.find index of an element
-var batteryIndex = bookPages.indexOf("battery");
+// var batteryIndex = bookPages.indexOf("battery");
 // console.log(batteryIndex);
 
-var positionIndex = bookPages.indexOf('bolod');
+// var positionIndex = bookPages.indexOf('bolod');
 // console.log(positionIndex);
 
 
